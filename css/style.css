@@ -1,0 +1,181 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonte Poppins */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    z-index: 100;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff5733;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #fff;
+  }
+  
+  .hero .hero-text {
+    flex: 1;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .hero-img img {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Sobre Mim */
+  .sobre {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .skill img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Projetos */
+  .projetos {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  .projetos h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .project-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .project-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    color: #666;
+  }
+  
+  /* Contato */
+  .contato {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  .contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contato input, .contato textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contato .btn {
+    background-color
+  
