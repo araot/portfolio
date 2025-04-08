@@ -209,7 +209,7 @@
   }
   .project-card a{
     text-decoration: none;
-    color:#fff;
+    color:#f9ca24;
   }
   .project-card:hover {
     transform: scale(1.05);
